@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gradient-to-br from-[#0B1120] via-[#0F1934] to-[#0C2136] overflow-x-hidden
+}
+
+@layer components{
+    .flex-between{
+        @apply flex justify-between items-center
+    }
+}
+
+.gradient-text {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #31ABFE, #FEE250);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.gradient-btn{
+    background-image: linear-gradient(45deg, #189ef8, #9c18e9);
+}
