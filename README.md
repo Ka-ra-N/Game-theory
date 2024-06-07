@@ -1,4 +1,4 @@
 # React + Tailwind CSS
 
--- You can see the live site [here](https://game-theory-task.netlify.app)
+-- You can see the live site [here](https://card-api-fetch.netlify.app)
 
